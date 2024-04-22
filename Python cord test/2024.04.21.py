@@ -22,7 +22,7 @@ elif age<=19:
 elif age>=20:
     print('성인입니다')
 '''
-
+'''
 text=input('알파벳 입력:')
 
 if text.isupper():
@@ -31,3 +31,4 @@ elif text.islower():
     print('소문자')
 else:
     print('대/소문자 구분 불가능')
+'''
