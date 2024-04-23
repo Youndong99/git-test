@@ -8,4 +8,4 @@ A>0
 B=int(input('B'))
 B<10
 
-print(A+B)
+print((A+B)-2)
