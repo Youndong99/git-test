@@ -43,4 +43,3 @@ num.reverse()  # 역순 만들기
 
 num.sort()  # 오름차순 정렬
 num.sort(reverse=True)  # 내림차순 정
-
