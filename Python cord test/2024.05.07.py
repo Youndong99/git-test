@@ -13,7 +13,14 @@ print((A%C)+(B%C)%C)
 print((A*B)%C)
 print((A%C)*(B%C)%C)
 
-'''
-if A,B,C=int(input('2<=A,B,C<=10000'):
+
+if A,B,C=int(input('2<=A,B,C<=10000')):
              print(((A%C)+(B%C)%C)=((A%C)*(B%C)%C))
-'''             
+            
+A, B, C = map(int, input("Enter three integers A, B, C where 2 <= A, B, C <= 10000: ").split())
+
+# Check if the equation is true
+if ((A % C) + (B % C)) % C == ((A % C) * (B % C)) % C:
+    print("True")
+else:
+    print("False")
