@@ -23,4 +23,5 @@ A, B, C = map(int, input("Enter three integers A, B, C where 2 <= A, B, C <= 100
 if ((A % C) + (B % C)) % C == ((A % C) * (B % C)) % C:
     print("True")
 else:
+    
     print("False")
